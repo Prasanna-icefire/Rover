@@ -1,0 +1,259 @@
+{
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",
+    "copyright": "Copyright © 2021 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [
+        {
+            "estimatedTotal": 1,
+            "resources": [
+                {
+                    "__type": "Route:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",
+                    "bbox": [
+                        13.015813,
+                        77.669212,
+                        13.016706,
+                        77.669863
+                    ],
+                    "id": "v70,h-1482766406,i0,a0,cen-US,dAAAAAAAAAAA1,y0,s1,m1,o1,t4,w3ux7HhkIKkCwqiFC3mpTQA2~AMceySSpYSOGAADgAQAAgD8A0~cm9hZA2~~~~~~~~v12,wz5UA844IKkC2pCGX1GpTQA2~AMceySTxVyOGAADgAXJRnT4A0~cm9hZA2~~~~~~~~v12,k1",
+                    "distanceUnit": "Kilometer",
+                    "durationUnit": "Second",
+                    "price": -1,
+                    "routeLegs": [
+                        {
+                            "actualEnd": {
+                                "type": "Point",
+                                "coordinates": [
+                                    13.016706,
+                                    77.669224
+                                ]
+                            },
+                            "actualStart": {
+                                "type": "Point",
+                                "coordinates": [
+                                    13.015813,
+                                    77.669818
+                                ]
+                            },
+                            "alternateVias": [],
+                            "cost": 0,
+                            "description": "2nd Cross Road",
+                            "itineraryItems": [
+                                {
+                                    "compassDirection": "north",
+                                    "details": [
+                                        {
+                                            "compassDegrees": 8,
+                                            "endPathIndices": [
+                                                1
+                                            ],
+                                            "maneuverType": "DepartStart",
+                                            "mode": "Driving",
+                                            "roadType": "Street",
+                                            "startPathIndices": [
+                                                0
+                                            ]
+                                        }
+                                    ],
+                                    "exit": "",
+                                    "iconType": "Auto",
+                                    "instruction": {
+                                        "formattedText": null,
+                                        "maneuverType": "DepartStart",
+                                        "text": "Depart and head toward 2nd Cross Road"
+                                    },
+                                    "isRealTimeTransit": false,
+                                    "maneuverPoint": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            13.015813,
+                                            77.669818
+                                        ]
+                                    },
+                                    "realTimeTransitDelay": 0,
+                                    "sideOfStreet": "Unknown",
+                                    "tollZone": "",
+                                    "towardsRoadName": "2nd Cross Road",
+                                    "transitTerminus": "",
+                                    "travelDistance": 0.032,
+                                    "travelDuration": 11,
+                                    "travelMode": "Driving"
+                                },
+                                {
+                                    "compassDirection": "west",
+                                    "details": [
+                                        {
+                                            "compassDegrees": 277,
+                                            "endPathIndices": [
+                                                4
+                                            ],
+                                            "maneuverType": "TurnLeft",
+                                            "mode": "Driving",
+                                            "names": [
+                                                "2nd Cross Road"
+                                            ],
+                                            "roadType": "Street",
+                                            "startPathIndices": [
+                                                1
+                                            ]
+                                        }
+                                    ],
+                                    "exit": "",
+                                    "iconType": "Auto",
+                                    "instruction": {
+                                        "formattedText": null,
+                                        "maneuverType": "TurnLeft",
+                                        "text": "Turn left onto 2nd Cross Road"
+                                    },
+                                    "isRealTimeTransit": false,
+                                    "maneuverPoint": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            13.016098,
+                                            77.669863
+                                        ]
+                                    },
+                                    "realTimeTransitDelay": 0,
+                                    "sideOfStreet": "Unknown",
+                                    "tollZone": "",
+                                    "transitTerminus": "",
+                                    "travelDistance": 0.073,
+                                    "travelDuration": 13,
+                                    "travelMode": "Driving"
+                                },
+                                {
+                                    "compassDirection": "north",
+                                    "details": [
+                                        {
+                                            "compassDegrees": 15,
+                                            "endPathIndices": [
+                                                7
+                                            ],
+                                            "maneuverType": "TurnRight",
+                                            "mode": "Driving",
+                                            "roadType": "Street",
+                                            "startPathIndices": [
+                                                4
+                                            ]
+                                        }
+                                    ],
+                                    "exit": "",
+                                    "iconType": "Auto",
+                                    "instruction": {
+                                        "formattedText": null,
+                                        "maneuverType": "TurnRight",
+                                        "text": "Turn right"
+                                    },
+                                    "isRealTimeTransit": false,
+                                    "maneuverPoint": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            13.016278,
+                                            77.669212
+                                        ]
+                                    },
+                                    "realTimeTransitDelay": 0,
+                                    "sideOfStreet": "Unknown",
+                                    "tollZone": "",
+                                    "transitTerminus": "",
+                                    "travelDistance": 0.056,
+                                    "travelDuration": 28,
+                                    "travelMode": "Driving"
+                                },
+                                {
+                                    "compassDirection": "northwest",
+                                    "details": [
+                                        {
+                                            "compassDegrees": 297,
+                                            "endPathIndices": [
+                                                7
+                                            ],
+                                            "maneuverType": "ArriveFinish",
+                                            "mode": "Driving",
+                                            "roadType": "Street",
+                                            "startPathIndices": [
+                                                7
+                                            ]
+                                        }
+                                    ],
+                                    "exit": "",
+                                    "hints": [
+                                        {
+                                            "hintType": "PreviousIntersection",
+                                            "text": "The last intersection before your destination is 1st cross Road"
+                                        },
+                                        {
+                                            "hintType": "NextIntersection",
+                                            "text": "If you reach TC Palya Main Road, you've gone too far"
+                                        }
+                                    ],
+                                    "iconType": "Auto",
+                                    "instruction": {
+                                        "formattedText": null,
+                                        "maneuverType": "ArriveFinish",
+                                        "text": "Arrive at destination"
+                                    },
+                                    "isRealTimeTransit": false,
+                                    "maneuverPoint": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            13.016706,
+                                            77.669224
+                                        ]
+                                    },
+                                    "realTimeTransitDelay": 0,
+                                    "sideOfStreet": "Unknown",
+                                    "tollZone": "",
+                                    "transitTerminus": "",
+                                    "travelDistance": 0,
+                                    "travelDuration": 0,
+                                    "travelMode": "Driving"
+                                }
+                            ],
+                            "routeRegion": "WWMX",
+                            "routeSubLegs": [
+                                {
+                                    "endWaypoint": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            13.016706,
+                                            77.669224
+                                        ],
+                                        "description": "road",
+                                        "isVia": false,
+                                        "locationIdentifier": "0|199|30|201|36|241|87|35|134|0|0|224|1|114|81|157|62|0|13.016706,77.669224",
+                                        "routePathIndex": 7
+                                    },
+                                    "startWaypoint": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            13.015813,
+                                            77.669818
+                                        ],
+                                        "description": "road",
+                                        "isVia": false,
+                                        "locationIdentifier": "0|199|30|201|36|169|97|35|134|0|0|224|1|0|0|128|63|0|13.015813,77.669818",
+                                        "routePathIndex": 0
+                                    },
+                                    "travelDistance": 0.161,
+                                    "travelDuration": 54
+                                }
+                            ],
+                            "travelDistance": 0.161,
+                            "travelDuration": 54,
+                            "travelMode": "Driving"
+                        }
+                    ],
+                    "trafficCongestion": "None",
+                    "trafficDataUsed": "None",
+                    "travelDistance": 0.161,
+                    "travelDuration": 54,
+                    "travelDurationTraffic": 59,
+                    "travelMode": "Driving"
+                }
+            ]
+        }
+    ],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "8be0e3cf43ac46ee8975d5224de66c2f|HK00001DB2|0.0.0.0|HK00000875, Leg0-HK00001A48"
+}
